@@ -1,4 +1,6 @@
 # fft_mp3_linea_bandas.py
+import os
+os.environ['MPLBACKEND'] = 'TkAgg'
 import sys, queue
 import numpy as np
 import matplotlib.pyplot as plt

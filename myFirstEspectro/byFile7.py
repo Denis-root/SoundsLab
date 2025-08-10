@@ -1,9 +1,13 @@
 # fft_mp3_linea_iso_bandas_norm.py
+import os
+os.environ['MPLBACKEND'] = 'TkAgg'
 import sys, queue
 import numpy as np
 import matplotlib.pyplot as plt
 import sounddevice as sd
 from pydub import AudioSegment
+import matplotlib; print("Backend:", matplotlib.get_backend())
+
 
 # ------------------ Parámetros ------------------
 SR = 44100

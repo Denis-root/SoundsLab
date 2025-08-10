@@ -1,4 +1,6 @@
 # fft_mp3_play_callback.py
+import os
+os.environ['MPLBACKEND'] = 'TkAgg'
 import sys            # Para leer argumentos de la línea de comandos
 import queue          # Para crear una cola que comparta datos entre el callback y el hilo principal
 import numpy as np    # Librería para cálculos numéricos, FFT, etc.

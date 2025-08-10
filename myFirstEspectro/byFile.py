@@ -1,7 +1,8 @@
 """
 No reproduce audio
 """
-
+import os
+os.environ['MPLBACKEND'] = 'TkAgg'
 import sys, time
 import numpy as np
 import matplotlib.pyplot as plt
