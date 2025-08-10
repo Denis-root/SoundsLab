@@ -1,0 +1,6 @@
+pip install numpy
+pip install scipy
+pip install sounddevice
+pip install matplotlib
+pip install pydub
+pip install PySide6 pyqtgraph
